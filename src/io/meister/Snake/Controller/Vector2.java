@@ -1,5 +1,8 @@
 package io.meister.Snake.Controller;
 
+/**
+ * Handy point replacement
+ */
 public class Vector2 {
     public int x;
     public int y;
