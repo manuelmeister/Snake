@@ -7,14 +7,18 @@ import io.meister.Snake.View.MapObject;
 import java.awt.*;
 
 /**
- * Created by manuelmeister on 11.05.15.
+ * The body of the snake
  */
 public class SnakeBody extends MapObject{
 
+    /**
+     * Color of the snakebody
+     */
     private final Color COLOR = new Color(25, 183, 9);
 
     public SnakeBody(Vector2 pos) {
         this.pos = pos;
+        colidable = true;
     }
 
     @Override

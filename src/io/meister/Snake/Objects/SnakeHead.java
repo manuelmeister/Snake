@@ -7,14 +7,18 @@ import io.meister.Snake.View.MapObject;
 import java.awt.*;
 
 /**
- * Created by manuelmeister on 11.05.15.
+ * Head of the snake
  */
 public class SnakeHead extends MapObject {
 
+    /**
+     * Color of the head
+     */
     private final Color COLOR = new Color(255,0,0);
 
     public SnakeHead(Vector2 pos) {
         this.pos = pos;
+        colidable = true;
     }
 
     @Override
